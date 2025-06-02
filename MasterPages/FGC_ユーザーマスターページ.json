@@ -1,0 +1,64 @@
+{
+  "Rows": {
+    "Count": 38
+  },
+  "Cols": {
+    "Count": 55
+  },
+  "Values": {
+    "30,4": "このページはForguncyのビルトインページです。アプリケーションに合わせてカスタマイズが可能です。"
+  },
+  "AttachInfos": {
+    "4,4": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 12.0,
+        "Foreground": 0,
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "30,4": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "4,4,26,47",
+    "30,4,2,47"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Accent 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Name": "9d382752-f3ea-48a3-bb53-d6d47ed4c55a.png",
+      "Location": "80,0",
+      "Size": "940,60"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//Y2YLKVdzVUcGNaTWCQ2ygs4ZZxrEz2a55s/bdix8m4TMb3cYVR557RKZFkjiHnlw/Tk9SlUW4ddcKzMalNderZMd4UeeBSFCP4a2KzPtnEsv2gxDk8eztafbZHcNGo/ya7yvBhuXdRqqQbv0lPAv7AQ82N3rFY5Qr6Ta26SEExW1bvGDOYqdUt+VcH9v3oT9V7P4LCXikN7/KM/eI+yRTqTjRjte00WPo0eG/TClX/f2Q2dVpSH95ggJmEXACUpxO5Fbm7OqzaPooCRvMXMzykn8r/M1IXRenD41+VPzW42ez0DTp/7tnytfYUmKTJFhdsJlKEY66SDy82XfkGWnhRORCy0KFOH1hk9YQY+gmM7Rr0L9gWxT39jqn15EiY1IAzhur4DmJ12GWdrgYhBuEReOJhD20TGSlwXQTPiejhuB37lQseBoBf/fZex/LMBIScj5ZMTbzbICRdqts7cm6NZ2hdTjq2JtdTdPoR4vvLIb/Xcz2j6vmHlLqckUxZr9MgrTBrin+JbTMjGoy36R2EAz5HMOxosU52uAPNyIAEIxnr2+kScS/IxL6vFpSVzxwSdpWq8i4klwkfuiPAGl4soGp9PjuP65A3hzozF41E/jCuNcBSkkSDDnMb36GSpdRMWcDvrQzae+LH8op1U9+TlCkRZHKwU2Xsu54hoKdHBRWcecxL3QCkqcIQIWWEKT+CnDG8dJNff8I+RiJ6TISwG56RccNE+Lbb1hHlrSKR41vdcuv0eucoEtKPvbKMYkWfllqzcW3kBbz0wXaxbr4hYCRThx5mXyesOfvO9jMxOeLx2QxW3wEMPaNZaibIzCogVyKXt8JV7pacEZaXVj1YNxXO3O8UpfPFw22Psp3R4RrEJNM+psfpk6gp4oRZpA3YM9RtDOvf8ebtiAnlsliA==|920

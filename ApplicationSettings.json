@@ -1,0 +1,15 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "Jfbs3q5sz*4E"
+  },
+  "LoadingIndicatorSettings": {
+    "CSSLoading": 7,
+    "CSSColor": "#FF0063C7"
+  },
+  "WebSitePort": 32580,
+  "UserServicePort": 29567,
+  "StartPage": "login",
+  "AuthenticationMode": 1,
+  "StartDateFiscalYear": 4,
+  "FocusMoveMode": 0
+}

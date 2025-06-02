@@ -1,0 +1,17 @@
+[
+  {
+    "ConnectionString": "Data Source=ntvmd396;Initial Catalog=ResearchThemeManagement;Persist Security Info=True;User ID=z037674;Password=z037674",
+    "DataBaseType": 1,
+    "ID": "aab84876-1bda-42ef-9cdf-2425636a1a9f"
+  },
+  {
+    "ConnectionString": "Data Source=rds-commondb-poc-zeon-db-001.cjzyjlprofpu.ap-northeast-1.rds.amazonaws.com;Initial Catalog=L_USER_MST;Persist Security Info=True;User ID=Forguncy_RO_USER;Password=Forguncy_RO_USER",
+    "DataBaseType": 1,
+    "ID": "d7ad2bf8-3f72-49cb-88de-3266d38ab81f"
+  },
+  {
+    "ConnectionString": "Data Source=ntvmd396;Initial Catalog=ExperimentDocumentManagement;Persist Security Info=True;User ID=z037674;Password=z037674",
+    "DataBaseType": 1,
+    "ID": "166e4c87-5405-473b-ae24-01e2993d881d"
+  }
+]

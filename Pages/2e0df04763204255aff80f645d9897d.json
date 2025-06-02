@@ -1,0 +1,490 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      0
+    ],
+    "Count": 5
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Values": {
+    "2,23": "行追加"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "TemplateCellSource": "temporaryWfApprovalLevelFromList"
+    },
+    "0,1": {
+      "TemplateCellSource": "employeeZCodeFromList"
+    },
+    "0,5": {
+      "TemplateCellSource": "employeeZCodeLoginFromList"
+    },
+    "0,6": {
+      "TemplateCellSource": "organizationCodeFromList"
+    },
+    "0,7": {
+      "TemplateCellSource": "deptCodeFromList"
+    },
+    "0,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='2e0df04763204255aff80f645d9897d'!I1"
+                      }
+                    ]
+                  },
+                  "value": "1"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='2e0df04763204255aff80f645d9897d'!AD3"
+                        },
+                        "PropertyType": 1,
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "6a6c07b7-a09b-4051-883f-44e95698d6a0"
+              }
+            ]
+          }
+        ]
+      },
+      "TemplateCellSource": "categolyWfRollIdFromList"
+    },
+    "2,0": {
+      "TemplateCellSource": "employeeNameFromList"
+    },
+    "2,14": {
+      "TemplateCellSource": "categolyWfRollNameFromList"
+    },
+    "2,23": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "承認者の追加",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='2e0df04763204255aff80f645d9897d'!F1"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=承認者の追加!employeeZCodeLogin"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='2e0df04763204255aff80f645d9897d'!H1"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=承認者の追加!deptCodeSelected"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='2e0df04763204255aff80f645d9897d'!G1"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=承認者の追加!organizationCodeSelected"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='2e0df04763204255aff80f645d9897d'!A1"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=承認者の追加!approvalLevelSelected"
+                }
+              },
+              {
+                "Source": "2",
+                "TargetCell": {
+                  "SerializeProperty": "=承認者の追加!approvalOptionSelected"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "行追加",
+        "TemplateKey": "_RS_Normal_Style3",
+        "Icon": {
+          "Name": "Application/005_add_5.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        },
+        "IconSize": 20.0
+      }
+    },
+    "2,29": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "='2e0df04763204255aff80f645d9897d'!A1"
+                        }
+                      ]
+                    },
+                    "value": "1"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "='2e0df04763204255aff80f645d9897d'!I1"
+                        }
+                      ]
+                    },
+                    "value": "3"
+                  },
+                  "RelationType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "申請者および部署長は削除できません。"
+                  }
+                ],
+                "ID": "71e8d055-5a52-4f31-bf63-6856b7bfa5d8"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "edm_temporary_wf_patterns",
+                    "UpdateType": "delete",
+                    "ShowConfirm": true,
+                    "ConfirmText": "本当に削除してもよろしいですか？",
+                    "RowsToUpdate": 1,
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "edm_temporary_wf_patterns",
+                          "ColumnName": "employee_z_code_login"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='2e0df04763204255aff80f645d9897d'!F1"
+                        }
+                      },
+                      "Condition2": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "edm_temporary_wf_patterns",
+                          "ColumnName": "temporary_wf_pattern_approval_level"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='2e0df04763204255aff80f645d9897d'!A1"
+                        }
+                      }
+                    },
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "78982560-fc34-427b-9ee2-dbcaf456e24e"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style6",
+        "Icon": {
+          "Name": "Application/037_delete_2.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        },
+        "IconSize": 20.0
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "@",
+        "Background 1 -25",
+        "Text 1 35",
+        "Bold"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 0,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "0,16": 1,
+      "0,17": 1,
+      "0,18": 1,
+      "0,19": 1,
+      "0,20": 1,
+      "0,21": 1,
+      "0,22": 1,
+      "0,23": 1,
+      "0,24": 1,
+      "0,25": 1,
+      "0,26": 1,
+      "0,27": 1,
+      "0,28": 1,
+      "0,29": 1,
+      "0,30": 1,
+      "1,0": 2,
+      "1,1": 2,
+      "1,2": 2,
+      "1,3": 2,
+      "1,4": 2,
+      "1,5": 2,
+      "1,6": 2,
+      "1,7": 2,
+      "1,8": 2,
+      "1,9": 2,
+      "1,10": 2,
+      "1,11": 2,
+      "1,12": 2,
+      "1,13": 2,
+      "1,14": 2,
+      "1,15": 2,
+      "1,16": 2,
+      "1,17": 2,
+      "1,18": 2,
+      "1,19": 2,
+      "1,20": 2,
+      "1,21": 2,
+      "1,22": 2,
+      "1,23": 2,
+      "1,24": 2,
+      "1,25": 2,
+      "1,26": 2,
+      "1,27": 2,
+      "1,28": 2,
+      "1,29": 2,
+      "1,30": 2,
+      "2,0": 3,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,13": 3,
+      "2,14": 3,
+      "2,22": 3,
+      "2,23": 4,
+      "2,28": 4,
+      "2,29": 1,
+      "2,30": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 1,
+      "3,3": 1,
+      "3,4": 1,
+      "3,5": 1,
+      "3,6": 1,
+      "3,7": 1,
+      "3,8": 1,
+      "3,9": 1,
+      "3,10": 1,
+      "3,11": 1,
+      "3,13": 3,
+      "3,22": 3,
+      "3,28": 4,
+      "3,29": 1,
+      "3,30": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,2,1,2",
+    "1,12,1,2",
+    "1,21,1,2",
+    "1,27,1,2",
+    "2,0,2,12",
+    "2,14,2,8",
+    "2,23,2,5",
+    "2,29,2,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "applywf"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//r9fQxhDlvUdy4pwdYqkGlLrvZvid0HHZ2Z/b0L5P4Kd0WOXGyHyTArM44DRFWlzg71UhKK5ZXrRgLVL9wmWlYSV/lRiTW/ml/QusTSuvXymz89Uzs6RN21OwhVK+zXRSgx5DEzC3qH7N4hSZXP1o9fH0nZdAo/YTWquVWkxnlZfiI3baytJ9LRzZBs7X4wRfF5U3oR7l5sHHnOGk4iCs4JIVw7gaTm4Z39v+Hd3YGjVGvg6fNckKYKaPM8zYIyLc7q85qQj71EMzsibYcJ+9mL/+WrPR8cQmJ0DF6VhLoIdkwKO/VxDsvGUPvqu0YRg50ow43jH8ZCNUnm0UJtbDzaEpAB4UKS9TZJlg9wb6iA7X5JZWnPMWksyo/yDf0DMfJIqWD+yBx+n+ZGy3epk2eE0UAwnNjKouZ3xZ6YcdVx9xw7NbjkhTDP2jwBPsw/dHGLO+iQ4LvY1rCpTpZ6PAttgX24jhevRNSjA24W3reY1DfjOHlfKls4PUof6GIWk9GQa06MT2e3CpCFwkw91hLHf2PLkhUIl3uPI0seWMxWxW/Af17lwjMLlHTROenwOAEBT8DhrRd7LmsV0D7keYb0FqZDFqjJMwLEl9NiVNEfl/3mWHFuxUgPTgaQbQoAg2QrcZSiRkVAuheLhbe5pgItZULh43pxJK+iJscOVZ8fsZo2rdSpFmscwy5G2nFMudphRfU3y8z4+Ik9iQhX4REf04LSlnUWQien3WzaNS2KSHmvZJYaC5KBKPp/R0TzP4iPic847PKMY4sYx3TPgbgszLnFTnEiFlwTBA3/4q9LDYNpYEFHYw1sum1xAbaUX/D1DNNkycQ26mbXiU1OHUeDEj2f1egCmDIrWR6P8l3vfN4eql9pjTUXcotr1p36eZSdSeLN6lCSgZXrozC32ylA==|920
