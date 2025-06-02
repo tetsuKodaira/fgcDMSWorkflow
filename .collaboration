@@ -1,1 +1,188 @@
-[{"ModuleName":"TableView/edm_view_temporary_wf_patterns","ModuleType":23},{"ModuleName":"Table/edm_records","ModuleType":7},{"ModuleName":"Table/edm_temporary_wf_patterns","ModuleType":7},{"ModuleName":"Table/edm_plans","ModuleType":7},{"ModuleName":"TableView/edm_view_wf_details","ModuleType":23},{"ModuleName":"Table/edm_request_analytical_tests","ModuleType":7},{"ModuleName":"Table/edm_experiment_documents","ModuleType":7},{"ModuleName":"TableView/edm_view_under_approval_wfs","ModuleType":23},{"ModuleName":"Table/edm_wf_details","ModuleType":7},{"ModuleName":"Table/edm_dms_relations","ModuleType":7},{"ModuleName":"Table/lum_view_employee_department_relations_duplicated","ModuleType":7},{"ModuleName":"TableView/edm_view_experiment_documents","ModuleType":23},{"ModuleName":"TableView/lum_view_depertment_consener_relations_nac_based","ModuleType":23},{"ModuleName":"Table/lum_view_departments_duplicated","ModuleType":7},{"ModuleName":"TableView/edm_view_experiment_document_relations","ModuleType":23},{"ModuleName":"TableView/edm_view_dms_relations","ModuleType":23},{"ModuleName":"TableView/rtm_view_themes","ModuleType":23},{"ModuleName":"Table/edm_dms_relation_temp","ModuleType":7},{"ModuleName":"TableView/edm_view_dms_relation_temp","ModuleType":23},{"ModuleName":"Pages/ビルトイン ページ","ModuleType":6},{"ModuleName":"PCPage/FGC_401ページ","ModuleType":1},{"ModuleName":"PCPage/FGC_メールサブスクリプション","ModuleType":1},{"ModuleName":"PCPage/FGC_ただいまメンテナンス中です","ModuleType":1},{"ModuleName":"Pages/ビルトイン モバイルページ","ModuleType":6},{"ModuleName":"MobilePage/FGC_401ページ_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_メールサブスクリプション_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_ただいまメンテナンス中です_モバイル","ModuleType":2},{"ModuleName":"PCPage/errorAccessDenied","ModuleType":1},{"ModuleName":"PCPage/errorDepartmentCodeMissed","ModuleType":1},{"ModuleName":"PCPage/login","ModuleType":1},{"ModuleName":"PCPage/home","ModuleType":1},{"ModuleName":"PCPage/applywf","ModuleType":1},{"ModuleName":"PCPage/approvalWf","ModuleType":1},{"ModuleName":"PCPage/承認者の追加","ModuleType":1},{"ModuleName":"MasterPCPage/FGC_ユーザーマスターページ","ModuleType":3},{"ModuleName":"ApplicationSetting","ModuleType":8},{"ModuleName":"Theme","ModuleType":9},{"ModuleName":"ImageSelector","ModuleType":10},{"ModuleName":"UserService","ModuleType":11},{"ModuleName":"CustomLibrary","ModuleType":12},{"ModuleName":"ShareCommand","ModuleType":13},{"ModuleName":"MapJsonFile","ModuleType":14},{"ModuleName":"DataContectionSet","ModuleType":25},{"ModuleName":"Upload","ModuleType":26}]
+[
+  {
+    "ModuleName": "TableView/edm_view_temporary_wf_patterns",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "Table/edm_records",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/edm_temporary_wf_patterns",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/edm_plans",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "TableView/edm_view_wf_details",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "Table/edm_request_analytical_tests",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/edm_experiment_documents",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "TableView/edm_view_under_approval_wfs",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "Table/edm_wf_details",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/edm_dms_relations",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/lum_view_employee_department_relations_duplicated",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "TableView/edm_view_experiment_documents",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "TableView/lum_view_depertment_consener_relations_nac_based",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "Table/lum_view_departments_duplicated",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "TableView/edm_view_experiment_document_relations",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "TableView/edm_view_dms_relations",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "TableView/rtm_view_themes",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "Table/edm_dms_relation_temp",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "TableView/edm_view_dms_relation_temp",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "Pages/ビルトイン ページ",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/FGC_401ページ",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_メールサブスクリプション",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_ただいまメンテナンス中です",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/ビルトイン モバイルページ",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "MobilePage/FGC_401ページ_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_メールサブスクリプション_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_ただいまメンテナンス中です_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "PCPage/errorAccessDenied",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/errorDepartmentCodeMissed",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/login",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/home",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/applywf",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/approvalWf",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/承認者の追加",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "ApplicationSetting",
+    "ModuleType": 8
+  },
+  {
+    "ModuleName": "Theme",
+    "ModuleType": 9
+  },
+  {
+    "ModuleName": "ImageSelector",
+    "ModuleType": 10
+  },
+  {
+    "ModuleName": "UserService",
+    "ModuleType": 11
+  },
+  {
+    "ModuleName": "CustomLibrary",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-02T13:07:47.5951656+09:00",
+    "ModuleType": 12,
+    "ToRemoveFiles": [
+      "CustomLibraries.json",
+      "UserFile\\dmsWf.js"
+    ]
+  },
+  {
+    "ModuleName": "ShareCommand",
+    "ModuleType": 13
+  },
+  {
+    "ModuleName": "MapJsonFile",
+    "ModuleType": 14
+  },
+  {
+    "ModuleName": "DataContectionSet",
+    "ModuleType": 25
+  },
+  {
+    "ModuleName": "Upload",
+    "ModuleType": 26
+  }
+]
