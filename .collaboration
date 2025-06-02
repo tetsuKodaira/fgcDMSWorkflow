@@ -117,7 +117,16 @@
   },
   {
     "ModuleName": "PCPage/login",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-02T13:13:03.5976423+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\login.json"
+    ]
   },
   {
     "ModuleName": "PCPage/home",
