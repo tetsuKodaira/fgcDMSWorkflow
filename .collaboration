@@ -1,133 +1,43 @@
 [
   {
     "ModuleName": "TableView/edm_view_temporary_wf_patterns",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\edm_view_temporary_wf_patterns.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/edm_records",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\edm_records.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/edm_temporary_wf_patterns",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\edm_temporary_wf_patterns.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/edm_plans",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\edm_plans.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/edm_view_wf_details",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\edm_view_wf_details.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/edm_request_analytical_tests",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\edm_request_analytical_tests.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/edm_experiment_documents",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\edm_experiment_documents.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/edm_view_under_approval_wfs",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\edm_view_under_approval_wfs.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/edm_wf_details",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\edm_wf_details.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/edm_dms_relations",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\edm_dms_relations.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/lum_view_employee_department_relations_duplicated",
@@ -135,16 +45,7 @@
   },
   {
     "ModuleName": "TableView/edm_view_experiment_documents",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\edm_view_experiment_documents.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "TableView/lum_view_depertment_consener_relations_nac_based",
@@ -156,29 +57,11 @@
   },
   {
     "ModuleName": "TableView/edm_view_experiment_document_relations",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\edm_view_experiment_document_relations.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "TableView/edm_view_dms_relations",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\edm_view_dms_relations.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "TableView/rtm_view_themes",
@@ -186,29 +69,11 @@
   },
   {
     "ModuleName": "Table/edm_dms_relation_temp",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\edm_dms_relation_temp.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/edm_view_dms_relation_temp",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3207536+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\edm_view_dms_relation_temp.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Pages/ビルトイン ページ",
@@ -252,16 +117,7 @@
   },
   {
     "ModuleName": "PCPage/login",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T13:13:03.5976423+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\login.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/home",
@@ -269,31 +125,11 @@
   },
   {
     "ModuleName": "PCPage/applywf",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T13:47:32.2154155+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\applywf.json",
-      "Pages\\2e0df04763204255aff80f645d9897d.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/approvalWf",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T16:17:07.9669765+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\approvalWf.json",
-      "Pages\\83a5bbceb91e465a96bdf57c801b363.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/承認者の追加",
@@ -321,17 +157,7 @@
   },
   {
     "ModuleName": "CustomLibrary",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T13:07:47.5951656+09:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries.json",
-      "UserFile\\dmsWf.js"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "ShareCommand",
@@ -343,16 +169,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-02T14:43:51.3166016+09:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet.json"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",

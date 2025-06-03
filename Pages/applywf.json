@@ -37,7 +37,6 @@
       }
     },
     "InLogicalVisibleIndexes": [
-      0,
       7,
       8,
       9,
@@ -52,8 +51,6 @@
     "Count": 36
   },
   "Values": {
-    "0,3": "30461190, 30461180,30403110",
-    "0,8": 30461180,
     "3,1": "必須",
     "3,4": "承認ルート",
     "3,8": "*チームリーダーか所長の承認は必須です",
@@ -179,8 +176,7 @@
             "DisplayNameInDesigner": "[dbo].[edm_insert_temporary_wf_patterns_from_option_selected]",
             "ID": "1dacd83b8a8f4936bc0b56949a441b84"
           }
-        ],
-        "CellDefaultValue": 30461180
+        ]
       }
     },
     "5,1": {
@@ -601,12 +597,44 @@
                                 "DataType": "nvarchar"
                               },
                               {
-                                "Name": "data_base_name",
+                                "Name": "dms_url",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=applywf!dmsUrl"
+                                },
+                                "DataType": "nvarchar"
+                              },
+                              {
+                                "Name": "db_name",
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                   "SerializeProperty": "=applywf!dbName"
                                 },
                                 "DataType": "nvarchar"
+                              },
+                              {
+                                "Name": "db_server",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=applywf!dbServer"
+                                },
+                                "DataType": "nvarchar"
+                              },
+                              {
+                                "Name": "theme_id",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=applywf!themeId"
+                                },
+                                "DataType": "int"
+                              },
+                              {
+                                "Name": "department_code",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=applywf!departmentCodeSelected"
+                                },
+                                "DataType": "int"
                               },
                               {
                                 "Name": "experiment_document_id",
@@ -623,7 +651,7 @@
                               "SerializeProperty": "=applywf!returnCode"
                             },
                             "DisplayNameInDesigner": "[dbo].[edm_create_experiment_document_from_dms]",
-                            "ID": "0be17f4374bc44f1abef9568b4d10373"
+                            "ID": "bf8367d086df4ffd856dd19f0fb58aa5"
                           },
                           {
                             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -696,10 +724,10 @@
                                       "SerializeProperty": "=applywf!returnCode"
                                     },
                                     "DisplayNameInDesigner": "[dbo].[edm_exec_experiment_document_record_confirm]",
-                                    "ID": "20cdbdd18fc74eef8ec977bb1a834926"
+                                    "ID": "e83cb0229d754acab2ad85a710ac705e"
                                   }
                                 ],
-                                "ID": "27a4c759-ba15-440c-a62a-1065720e8434"
+                                "ID": "e8bf3434-6379-462c-ba4f-94f685648ad1"
                               },
                               {
                                 "CommandList": [
@@ -711,7 +739,7 @@
                                     "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
                                   }
                                 ],
-                                "ID": "1fd8651e-75cc-4097-9bbc-10026e1997ff"
+                                "ID": "37c4e050-ff3d-4e80-b2fd-04f90cebf6a6"
                               }
                             ]
                           },
@@ -745,7 +773,7 @@
                                     "PassValues": []
                                   }
                                 ],
-                                "ID": "1d703ea5-8ef9-47ba-a12b-b15c30973b1f"
+                                "ID": "9c71aa7d-fa99-4958-bb9f-d0f64f7c2b46"
                               },
                               {
                                 "CommandList": [
@@ -757,17 +785,17 @@
                                     "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
                                   }
                                 ],
-                                "ID": "f0a6f6c1-01d6-47ca-a8eb-5d6f08219e96"
+                                "ID": "9224179d-f13d-43fd-97c3-7be0ccd40d8d"
                               }
                             ]
                           }
                         ],
-                        "ID": "315d2a2a-aa28-406e-9404-6cc27b0baa32"
+                        "ID": "608b7b23-7737-4a3d-a9ae-6af84b6fcc18"
                       }
                     ]
                   }
                 ],
-                "ID": "e5dae3a3-a8ae-442f-beae-07227269b742"
+                "ID": "a167d13b-121c-438e-ab93-20726a52294d"
               },
               {
                 "CommandList": [
@@ -776,7 +804,7 @@
                     "MessageFormula": "承認者にチームリーダーか所長を追加してください。"
                   }
                 ],
-                "ID": "556e4b29-8200-4261-a4c5-40415f858a3f"
+                "ID": "c4336a6f-4251-4cad-97c9-0d18b75dbaa3"
               }
             ]
           }
@@ -790,6 +818,87 @@
           "UseCellTypeForeColor": true
         },
         "IconSize": 24.0
+      }
+    },
+    "30,24": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallStoredProcedureCommand, ServerDesignerCommon",
+            "ConnectionStringID": "166e4c87-5405-473b-ae24-01e2993d881d",
+            "Name": "edm_create_experiment_document_from_dms",
+            "AllowAcessRoleList": [
+              "FGC_LoginUser",
+              "FGC_Anonymous"
+            ],
+            "Parmeters": [
+              {
+                "Name": "employee_z_code_login",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=applywf!employeeZCodeLogin"
+                },
+                "DataType": "nvarchar"
+              },
+              {
+                "Name": "project_id",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=applywf!projectId"
+                },
+                "DataType": "nvarchar"
+              },
+              {
+                "Name": "dms_url",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=applywf!dmsUrl"
+                },
+                "DataType": "nvarchar"
+              },
+              {
+                "Name": "db_name",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=applywf!dbName"
+                },
+                "DataType": "nvarchar"
+              },
+              {
+                "Name": "db_server",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=applywf!dbServer"
+                },
+                "DataType": "nvarchar"
+              },
+              {
+                "Name": "experiment_document_id",
+                "Direction": 3,
+                "ReturnCell": {
+                  "$type": "Forguncy.Common.FormulaCellLocation, ServerDesignerCommon",
+                  "SerializeProperty": "=applywf!experimentDocumentId"
+                },
+                "DataType": "char"
+              }
+            ],
+            "ReturningValue": {
+              "$type": "Forguncy.Common.FormulaCellLocation, ServerDesignerCommon",
+              "SerializeProperty": "=applywf!returnCode"
+            },
+            "DisplayNameInDesigner": "[dbo].[edm_create_experiment_document_from_dms]",
+            "ID": "3f6fb559e09d464ba864a37fd2e3b24f"
+          },
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+            "MessageFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=applywf!experimentDocumentId"
+            }
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -1761,7 +1870,8 @@
     "7,3,1,6",
     "7,9,1,12",
     "7,28,1,4",
-    "7,32,1,2"
+    "7,32,1,2",
+    "30,24,2,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2007,6 +2117,14 @@
     {
       "Name": "experimentDocumentId",
       "Formula": "applywf!$K$1"
+    },
+    {
+      "Name": "dbServer",
+      "Formula": "applywf!$L$1"
+    },
+    {
+      "Name": "dmsUrl",
+      "Formula": "applywf!$M$1"
     }
   ]
-}//Rdrn0P6oc06JTDch9OcxnjQMulDlIhG0rIohzzsomyglO8JAWUz1MMv0RBLBNYLPHzfwDiuBU0kOUCU1LWRPnc0b+Rfo3mJXSzUKTa2NmWQKfO8Inzm3Tkl36VwRQPYP+XoFTXunENP+rKS1fHbbv2svjquBCa+MwAOgeh5G6LhXDzaDk0QQ9CbdtzWaR0h+eZ+KmwqJu+n/IF6JAVV9LawEt8hS4x608GJ78etHDEPVJKJ+r7Ti+Yu6UWKdF46o0fVe+HLMOrSKagozLTcxZ+q+c6fCg6AWmK1NlL/wMxrw/YGKqppAhLXQHghsyM6PidTmkP8FTf7ZF8BKKc9aDJl4NSwKJ4vEg8xhwmBgffb/W1A42NiqILsY67E2dBUKV6wNAQPhFdfrxcnEZWjo8rxYcim9zkbmmBJv+bqFFHTy/a59oRrMTMML0QDm5D61AUeXpTPTO2N3Cp2bBKLY8l2j66yIMpyX7PgDGOAdU9c5EYwDSaAvCimjE4NR3QmbPWgUCShXiod0WO/16Ee3v92qyHwsg/5o4c6tCDCvRBnbT3OGrZXyylPUVk3TAFfK1EvZEun65u/7TbHK29lgFEKZTrBdpMAJ882PdilJUf32QQFJH6Tgxwi1KccsqXC1l1IdggSmoGtewtA68bP915Yms54ft7Ig2KpQX+IwfMCt/hx5C32Z2JzsY644eLDbZ2UqL4tgefAoptDUcHnV+jrP0FU55CHry7kmoeEKKjE5/DPIx+62xvmeelYxfvYZiLShKFuYtgFYvhmrXoGfUoObJduY5C1tPtM/fsxNxLqPL8F42KsNwxDvIHwlF3lTaHwGQvN6FuAZD+/BKk2eO+UGJ/8N9Yoz7P9WjNvosO80lBc1d6bOz6sJE4ff/FwWihwBnPsFhLQXDmw1hUp1uw==|920
+}//iquhquPcFmyzkxQYtdxs+4x9ziU9yOn4vqIXCstz88vKacD1BqSSe8xhjLe9qxZvQvnXT/AZVgxOtkv4gts0csqgLAOv9o3f1FGaBOUIWc2QdNpKr2wBj+FjnR1bnQTfYJByPJwmymNYXBZRxhzrw8QX9zsD2mjwPyjwy63GZcqPyVj69TptyqZBD4NlTzvDZHXsa6Z86Nw7JKukSlSyexka+J5rVIehtDnq5Pr/vnfCcW2cRj8k5ibeDTlPGc1wSFBjeI1lVKfwrn32pph3h/KVAOq9fhW6IM920R74KxAeqDwC7OU7IpgMLVpdKFaF7fbrBzIHSCJx9ichAMaQMkXDiz+hka7HZJGHtTCwrLIK8a0mOeZ5CErJo4d9phDqa5H2VdT176oZVNiPqR0IDPLGLq0sw0fqjqHGWX+XjVx+nMwGVW/2rCd5Mg8jZy8jXh/M822JuR0xxBTigaETmlpkXWszcR0rGrhEQ9sfDe0K/TFDcuFXB9FY0XUVaaQ/tmlv90fzvCI7s5YY/CzD1vYkc9cea1vznYOuej0RVDNUL16rP8/UHQBI9+jDnBkcWaB7o9eI0rFeXCYmZLKWcGZd7Fzm+NBe114gtAYFtQIfpL8ArHRc5R1GkCPmgkhDjCNQGNqaTHtz3F5z1nY1Smy1ALNS48UCnk8sD4/FtEb2sd5HTPCts67b9aHRVokqUVqk351r9cOmBhZvxqHZng8jPhnBZNvbj1jNgD25nVMFwFv8DEgsiCrToLykqCFEIEDte8/i0neQfxFnXo6HpiFMtTmBkU7i+q7xvRugxwPaaAEJ5tw/fPrO3IYVrokOL/0LZAd135/uvSO958kcL32N62s+Xbgl6TdA2fssLv2NL4xLrtkdEHGxxloe0lzLLbFk9UBSbyq8C6IR8Erp1Q==|920

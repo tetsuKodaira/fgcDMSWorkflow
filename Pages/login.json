@@ -8,9 +8,35 @@
   "Cols": {
     "Count": 60
   },
-  "Formulas": {
-    "0,2": "IFERROR(ODATA(\"edm_view_dms_relation_temp?$select=experiment_document_id&$filter=project_id eq \"&IF(ISBLANK(projectId),\"null\",\"'\"&projectId&\"'\")&\" and dms_relation_temp_db_name eq \"&IF(ISBLANK(dbName),\"null\",\"'\"&dbName&\"'\")),0)",
-    "0,1": "IFERROR(ODATA(\"rtm_view_themes?$select=organization_code&$filter=theme_id eq \"&IF(ISBLANK(themeId),\"null\",themeId)),0)"
+  "AttachInfos": {
+    "0,1": {
+      "BindingInfo": {
+        "TableName": "rtm_view_themes",
+        "ColumnName": "organization_code"
+      }
+    },
+    "0,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "SetCurrentRowCommand.SetCurrentRowCommand, SetCurrentRowCommand",
+            "CurrentRowInfo": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "rtm_view_themes",
+                "ColumnName": "theme_id"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=login!themeId"
+              }
+            }
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
   },
   "StyleDatas": {
     "Styles": [
@@ -40,7 +66,18 @@
       {
         "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
         "JavaScript": "login();",
-        "ID": "a2b3f8b5285e4af1a92ba6e76f2e2d58"
+        "ID": "d00f1aa6be3c435289d35d1cece04e2f"
+      },
+      {
+        "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+        "TargetPageElement": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=login!getCurrentRecords"
+        },
+        "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=8.0.20.0, Culture=neutral, PublicKeyToken=967100671921c115",
+        "MethodName": "ExecuteCommand",
+        "ParameterValues": {},
+        "RetrunParamNames": {}
       },
       {
         "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -56,7 +93,7 @@
                   }
                 ]
               },
-              "value": "0"
+              "value": "%Null%"
             },
             "CommandList": [
               {
@@ -65,7 +102,7 @@
                 "PassValues": []
               }
             ],
-            "ID": "1422871d-c755-427e-82f2-ce016c746b66"
+            "ID": "c652fe98-556a-493a-8157-294b4b5f4f5d"
           },
           {
             "CommandList": [
@@ -83,7 +120,7 @@
                           }
                         ]
                       },
-                      "value": "0"
+                      "value": "%Null%"
                     },
                     "CommandList": [
                       {
@@ -125,11 +162,29 @@
                             "TargetCell": {
                               "SerializeProperty": "=applywf!dbName"
                             }
+                          },
+                          {
+                            "Source": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=login!dbServer"
+                            },
+                            "TargetCell": {
+                              "SerializeProperty": "=applywf!dbServer"
+                            }
+                          },
+                          {
+                            "Source": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=login!dmsUrl"
+                            },
+                            "TargetCell": {
+                              "SerializeProperty": "=applywf!dmsUrl"
+                            }
                           }
                         ]
                       }
                     ],
-                    "ID": "3b158478-c78a-44f5-9170-e97c2bab5708"
+                    "ID": "18fbe9c7-6f8d-4ae8-baa1-5ff4a40437a0"
                   },
                   {
                     "CommandList": [
@@ -145,16 +200,61 @@
                             "TargetCell": {
                               "SerializeProperty": "=approvalWf!experimentDocumentId"
                             }
+                          },
+                          {
+                            "Source": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=login!dbName"
+                            },
+                            "TargetCell": {
+                              "SerializeProperty": "=approvalWf!dbName"
+                            }
+                          },
+                          {
+                            "Source": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=login!dbServer"
+                            },
+                            "TargetCell": {
+                              "SerializeProperty": "=approvalWf!dbServer"
+                            }
+                          },
+                          {
+                            "Source": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=login!dmsUrl"
+                            },
+                            "TargetCell": {
+                              "SerializeProperty": "=approvalWf!dmsUrl"
+                            }
+                          },
+                          {
+                            "Source": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=login!themeId"
+                            },
+                            "TargetCell": {
+                              "SerializeProperty": "=approvalWf!themeId"
+                            }
+                          },
+                          {
+                            "Source": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=login!projectId"
+                            },
+                            "TargetCell": {
+                              "SerializeProperty": "=approvalWf!projectId"
+                            }
                           }
                         ]
                       }
                     ],
-                    "ID": "3ef25d1e-2d77-43a3-b7e4-4685dd53db08"
+                    "ID": "5f6330ba-d8b3-4b4f-9995-ac94e27179e2"
                   }
                 ]
               }
             ],
-            "ID": "d331fe92-c52a-4e8e-9ae7-c2317c1307dd"
+            "ID": "59dce79c-e43f-40b7-86da-94834149e906"
           }
         ]
       }
@@ -164,7 +264,7 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "edm_view_dms_relations"
+    "RelatedDataTableName": "rtm_view_themes"
   },
   "PrintInfo": {
     "Margin": {},
@@ -190,6 +290,18 @@
     {
       "Name": "dbName",
       "Formula": "login!$E$1"
+    },
+    {
+      "Name": "dbServer",
+      "Formula": "login!$F$1"
+    },
+    {
+      "Name": "dmsUrl",
+      "Formula": "login!$G$1"
+    },
+    {
+      "Name": "getCurrentRecords",
+      "Formula": "login!$H$1"
     }
   ]
-}//tXcvaXRngBHqDQVpYluQEyjQ4GNjCEvlyRpzJR1BKpobHIBlVTAX23Ws2nr62D2jyBEv5O0APVpmJtBLnsw1HaxIhD/a2JjYLFDtq1/0im6fdUqGVqgOqDjO/ss/TWdQudLwuruh+4BmvKcI/AKXoIXy6ET7FOBZpewFkSj8DV5Rpk2fHSwv5abTzH61qwnegznqgfwqRWH3rrsRf6ZpYrkNeKr3TLRPuhu5NZRhqbd+AJdGK++rOpcjRtDF0xdoYAho+EdVwPCBhuvwoFsOZEDVw+57dT/e+AaekW26SO7WGUoYR0AwiUr6z9h+ujIlKsQdCADB5jAUC6OMzuW9wSTLzSJHBUXz6fRBG8+Fw10eI36/KMZs/vcqVe42yMOu7B3ZSCiEsq0Sp5S5PPXYY50r8ad2GpDAt3wWLxPf7A8YbauVXuB9mc1LdiYeUy/isa0hWGt1sYVxvkHolbYr5durhWFYwnd/dVIgIpe/qQSTzeAgftGCuAKMofinVzLV/4E8t+XQ1gliEepL2iuPpKvFUwAlfKw2QHNLJQtOxH+44c5L+opuWbi920ZG4n7anKMWF6HBJjaAzVn/XxewuIoBrzcjV1QuDL+jANrmeMYzV5XLvTCAH6rzb86Zt0nvTDGVJgJoWTDzIbsZxBFuAez+FsRu9UZx4LG8NJ9xmDGbm3tARUgqjESIEZRAfSh8t3sOyueDIWClYsr9F2v2ZKpu6Mwj4iix/myyO4+nZElBn/hMSjr6ep0lEuzeUxMUXAo0dHS2y/0jXzjBBaHq/suU+ojutRnmaiZvCcdSI14GuVjVD/7DZRF9/TQiDyZPUMvM3a2+/4Z0ocnQu89a2xbwMkK0Ven+fZ6YVa5u18jvMgkEaZEbXvWPKIvKG2UXLAWFhXJfnp9BJC1Cxri9vw==|920
+}//9bdNvKzPlu6kwsAmWgiVum4KGJetwNsFp4NtO0zoIdB9OhqN9/nP0Zd2q1NwklA+LJjjO40HinICf2xUoavZrHca+Z4LZQIMHtpVs30D2/ljHBoBpXwFl2JyCH0Z9sRw3wHAQRbhDVg6j8uDsfDIIz/vwoA/kZRewHogXAvNwTv8/4AeNQ0ZHzEwJG3eLLQlcTjMMj9318mwwUNjWOt6rGiooTrwS9iyqwng6k6H0G3rOfhAcQ1JnEk++1u1pE9IHSH9BDHC9yKhTZAhZStgLWcrCJmmS6PwBERHU/ZhPL0BvSD5To7IuAGWjRzdX+ErOtjtF5Q4DRGqTZOhdesIUdU5e0lFJMdhpMGTVEc0ROdcNRqLdz7ENyoI+OxD0t8lp9Hcm08d7kbXywDjip/yalCyq/TbEiVToTrjFRf+00a4YhaMxjmGGcTfFfdSoZjfjg1e5x39hFpiEus6LqOntYNvizkGMsRKyIzY03dyiboxe12oDg6rNGs7vHG7z18YVbPZO/aQD/7btmrXjQ389F9UhfqXLl+AqpZwgtVBQXasIF6c/O6ykOKMRHLGWch3VrgzWTmc/ZHV/4WYM/BTtvj9pd0UniKT+z+BQr9Ka0wJUMaVKWc9gmGlnOj7BYz2Y/ERntvxUzPt/9ArQnVRitsugj0zWvJ1HNClJEZyXOCY+xLSdfxpVFJUP98SfKv16VDHubSI0Zp1PksKPnqzpyU2tpU1l/D/8gz92lreKxwMl9mIXUzDLbnE7pS5ZsVYoNeFzS2fcD/o1usJr6floSuN0xtUEPBDZm3w5FIXswWKNspgm6MWa2/syvlZCCfF96zzy2lsEQscx9/zV1Z/SmEOODpKjpoxHHhYvZU/cqI/FmQiYLdbtXJM9UUphmDyYwR0gtDbBhura2YyMf95CA==|920

@@ -10,7 +10,7 @@
     "ID": "d7ad2bf8-3f72-49cb-88de-3266d38ab81f"
   },
   {
-    "ConnectionString": "Data Source=ntvmd396;Initial Catalog=ExperimentDocumentManagement;Persist Security Info=True;User ID=z037674;Password=z037674",
+    "ConnectionString": "Data Source=ntvmd396;Initial Catalog=ExperimentDocumentManagementTest;Persist Security Info=True;User ID=z037674;Password=z037674",
     "DataBaseType": 1,
     "ID": "166e4c87-5405-473b-ae24-01e2993d881d"
   }

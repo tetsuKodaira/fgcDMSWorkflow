@@ -50,15 +50,37 @@ class Page{
         const projectId = arg.projectId;
         const themeId = arg.themeId;
         const dbName = arg.dbName;
+        const dbServer = arg.dbServer;
+        const dmsUrl = arg.dmsUrl;
 
-        if(projectId == null || themeId == null || dbName == null){
+        if(projectId == null || themeId == null || dbName == null || dbServer == null){
             location.href = (urlErrorAccessDenied);
         }else{
+            console.log(`projectId: ${projectId}`);
+            console.log(`themeId: ${themeId}`);
+            console.log(`dbName: ${dbName}`);
+            console.log(`dbServer: ${dbServer}`);
+            console.log(`dmsUrl: ${dmsUrl}`);
+
             p.getCell('projectId').setValue(projectId);
             p.getCell('themeId').setValue(themeId);
             p.getCell('dbName').setValue(dbName);
+            p.getCell('dbServer').setValue(dbServer);
+            p.getCell('dmsUrl').setValue(dmsUrl);
         };
     }
+    getExperimentDocumentIdFromDmsInfo(projectId, dbName){
+        f.getTableData('edm_dms_relations',
+            {
+                project_id : projectId,
+                db_name : dbName
+            },function(data){
+                p.getCell('exprimentDocumentId').setValue(data.experiment_document_id);
+            },function(errorMessage){
+                p.getCell('exprimentDocumentId').setValue(null);    
+            }
+        )
+    }  
 }
 
 const login =()=>{
