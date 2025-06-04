@@ -167,7 +167,17 @@
   },
   {
     "ModuleName": "CustomLibrary",
-    "ModuleType": 12
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T08:18:48.8152954+09:00",
+    "ModuleType": 12,
+    "ToRemoveFiles": [
+      "CustomLibraries.json",
+      "UserFile\\dmsWf.js"
+    ]
   },
   {
     "ModuleName": "ShareCommand",
