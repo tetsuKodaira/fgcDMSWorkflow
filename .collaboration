@@ -1,43 +1,133 @@
 [
   {
     "ModuleName": "TableView/edm_view_temporary_wf_patterns",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\edm_view_temporary_wf_patterns.json"
+    ]
   },
   {
     "ModuleName": "Table/edm_records",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\edm_records.json"
+    ]
   },
   {
     "ModuleName": "Table/edm_temporary_wf_patterns",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\edm_temporary_wf_patterns.json"
+    ]
   },
   {
     "ModuleName": "Table/edm_plans",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\edm_plans.json"
+    ]
   },
   {
     "ModuleName": "TableView/edm_view_wf_details",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\edm_view_wf_details.json"
+    ]
   },
   {
     "ModuleName": "Table/edm_request_analytical_tests",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\edm_request_analytical_tests.json"
+    ]
   },
   {
     "ModuleName": "Table/edm_experiment_documents",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\edm_experiment_documents.json"
+    ]
   },
   {
     "ModuleName": "TableView/edm_view_under_approval_wfs",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\edm_view_under_approval_wfs.json"
+    ]
   },
   {
     "ModuleName": "Table/edm_wf_details",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\edm_wf_details.json"
+    ]
   },
   {
     "ModuleName": "Table/edm_dms_relations",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\edm_dms_relations.json"
+    ]
   },
   {
     "ModuleName": "Table/lum_view_employee_department_relations_duplicated",
@@ -45,7 +135,16 @@
   },
   {
     "ModuleName": "TableView/edm_view_experiment_documents",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\edm_view_experiment_documents.json"
+    ]
   },
   {
     "ModuleName": "TableView/lum_view_depertment_consener_relations_nac_based",
@@ -57,11 +156,29 @@
   },
   {
     "ModuleName": "TableView/edm_view_experiment_document_relations",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\edm_view_experiment_document_relations.json"
+    ]
   },
   {
     "ModuleName": "TableView/edm_view_dms_relations",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\edm_view_dms_relations.json"
+    ]
   },
   {
     "ModuleName": "TableView/rtm_view_themes",
@@ -69,11 +186,29 @@
   },
   {
     "ModuleName": "Table/edm_dms_relation_temp",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\edm_dms_relation_temp.json"
+    ]
   },
   {
     "ModuleName": "TableView/edm_view_dms_relation_temp",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4457068+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\edm_view_dms_relation_temp.json"
+    ]
   },
   {
     "ModuleName": "Pages/ビルトイン ページ",
@@ -169,7 +304,16 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "ModuleType": 25
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T18:59:33.4416854+09:00",
+    "ModuleType": 25,
+    "ToRemoveFiles": [
+      "DataConnectionSet.json"
+    ]
   },
   {
     "ModuleName": "Upload",
