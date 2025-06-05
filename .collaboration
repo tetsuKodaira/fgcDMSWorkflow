@@ -117,16 +117,7 @@
   },
   {
     "ModuleName": "PCPage/login",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-05T08:26:05.4269008+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\login.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/home",
@@ -138,17 +129,7 @@
   },
   {
     "ModuleName": "PCPage/approvalWf",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-04T11:40:47.7079368+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\approvalWf.json",
-      "Pages\\83a5bbceb91e465a96bdf57c801b363.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/承認者の追加",
@@ -176,17 +157,7 @@
   },
   {
     "ModuleName": "CustomLibrary",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZEON_H01\\Z037674",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-06-05T08:18:48.8152954+09:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries.json",
-      "UserFile\\dmsWf.js"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "ShareCommand",

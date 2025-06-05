@@ -15,6 +15,12 @@
         "ColumnName": "organization_code"
       }
     },
+    "0,2": {
+      "BindingInfo": {
+        "TableName": "edm_dms_relations",
+        "ColumnName": "experiment_document_id"
+      }
+    },
     "0,7": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
@@ -30,6 +36,34 @@
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=login!themeId"
+              }
+            }
+          },
+          {
+            "$type": "SetCurrentRowCommand.SetCurrentRowCommand, SetCurrentRowCommand",
+            "CurrentRowInfo": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "edm_dms_relations",
+                  "ColumnName": "project_id"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=login!projectId"
+                }
+              },
+              "Condition2": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "edm_dms_relations",
+                  "ColumnName": "db_name"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=login!dbName"
+                }
               }
             }
           }
@@ -66,7 +100,7 @@
       {
         "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
         "JavaScript": "login();",
-        "ID": "d00f1aa6be3c435289d35d1cece04e2f"
+        "ID": "23ddb71264b7463e959e6c3f72f2adfa"
       },
       {
         "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
@@ -102,7 +136,7 @@
                 "PassValues": []
               }
             ],
-            "ID": "c652fe98-556a-493a-8157-294b4b5f4f5d"
+            "ID": "30f32809-4963-470b-9e1c-79094a9cbfe3"
           },
           {
             "CommandList": [
@@ -184,7 +218,7 @@
                         ]
                       }
                     ],
-                    "ID": "18fbe9c7-6f8d-4ae8-baa1-5ff4a40437a0"
+                    "ID": "74850134-1b8e-4422-aa2e-3cd065a31bd3"
                   },
                   {
                     "CommandList": [
@@ -249,12 +283,12 @@
                         ]
                       }
                     ],
-                    "ID": "5f6330ba-d8b3-4b4f-9995-ac94e27179e2"
+                    "ID": "27877d2b-e1bb-42cf-971b-db7ca4b55585"
                   }
                 ]
               }
             ],
-            "ID": "59dce79c-e43f-40b7-86da-94834149e906"
+            "ID": "1e098f9d-d154-498b-a944-def060525b4e"
           }
         ]
       }
@@ -264,7 +298,7 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "rtm_view_themes"
+    "RelatedDataTableName": "edm_dms_relations"
   },
   "PrintInfo": {
     "Margin": {},
@@ -304,4 +338,4 @@
       "Formula": "login!$H$1"
     }
   ]
-}//9bdNvKzPlu6kwsAmWgiVum4KGJetwNsFp4NtO0zoIdB9OhqN9/nP0Zd2q1NwklA+LJjjO40HinICf2xUoavZrHca+Z4LZQIMHtpVs30D2/ljHBoBpXwFl2JyCH0Z9sRw3wHAQRbhDVg6j8uDsfDIIz/vwoA/kZRewHogXAvNwTv8/4AeNQ0ZHzEwJG3eLLQlcTjMMj9318mwwUNjWOt6rGiooTrwS9iyqwng6k6H0G3rOfhAcQ1JnEk++1u1pE9IHSH9BDHC9yKhTZAhZStgLWcrCJmmS6PwBERHU/ZhPL0BvSD5To7IuAGWjRzdX+ErOtjtF5Q4DRGqTZOhdesIUdU5e0lFJMdhpMGTVEc0ROdcNRqLdz7ENyoI+OxD0t8lp9Hcm08d7kbXywDjip/yalCyq/TbEiVToTrjFRf+00a4YhaMxjmGGcTfFfdSoZjfjg1e5x39hFpiEus6LqOntYNvizkGMsRKyIzY03dyiboxe12oDg6rNGs7vHG7z18YVbPZO/aQD/7btmrXjQ389F9UhfqXLl+AqpZwgtVBQXasIF6c/O6ykOKMRHLGWch3VrgzWTmc/ZHV/4WYM/BTtvj9pd0UniKT+z+BQr9Ka0wJUMaVKWc9gmGlnOj7BYz2Y/ERntvxUzPt/9ArQnVRitsugj0zWvJ1HNClJEZyXOCY+xLSdfxpVFJUP98SfKv16VDHubSI0Zp1PksKPnqzpyU2tpU1l/D/8gz92lreKxwMl9mIXUzDLbnE7pS5ZsVYoNeFzS2fcD/o1usJr6floSuN0xtUEPBDZm3w5FIXswWKNspgm6MWa2/syvlZCCfF96zzy2lsEQscx9/zV1Z/SmEOODpKjpoxHHhYvZU/cqI/FmQiYLdbtXJM9UUphmDyYwR0gtDbBhura2YyMf95CA==|920
+}//18qgWsJ82ojV6HR7GycAInO1kCBaC+H1mX1V9GIB6ZWTg2hyRBP950IjK27UHeIJzHYGDJNbOe2tL1JPWqL/h7eT2cQTx41opkKNDpMoBzNLeiNoNMm5TKmG7xF7y16UEBicaJJNU+LdRWD2PQb9CaAQIZzv7OY/Mk3Au/VTYTHqxWvcAR0PDvhjGhgYCG6znkNMUKduJygULVW2t6eWSPAFrEY0HlQzKSWTOYz59Ug3saFtY0cKfYfzeqLwKUTPDnMr4/3gvn8UbiShuj56Tqq1hH6Cqk1YzP8u5xVnEwDeBlT7dTkLLWnZQsdyEwNXqv2IIbY2KtEQHBQbhnrzw8jYqAK7ffLCenrx9qRtFZBpaE6iAqfGTJbOTXv/79fnbgtRcboYLBkxT0xuohZEHbQe9MpjhCy5F1rhZqu590NO6nKIDcZrvAVMPwa9XhxGPnBBAoFoG85U12EnuhGDu+xCdA8rNl+MAtxwJH50NGEVp8A9S5KSirreiDfH3u+jt3lCGra0X58HzH6Ztg/a6jeZzoOWZ0bMc+ujaDw66zyVOZfYQDF6TrkqHHa5sL+5Ysl9VVdY9lUeJN5RZkIAAH4OOgI20z0FOJZo7EJsPDHhBjKsmc9xzfiNNxjdIWyYLOghrdW323UP29ugOBie1WurENsnxpK9gPXlL4gaGk66TnvTPvecGKPbPbYzsC4pk36muxnMZhyh8UKHKUuiCBrz4RvSzL0oyYo8q2rQSBEH+SjWcOYCF55oULhXHJFhW3RzlMgiefQp6gmAD33OGd3BcqXmaEUW6QDBz+zcF4Qy6mTu+Flfo9hVDG9ZHvsjZg59kiojrVroE6DAnmJAU7ammI9LS3uvyFqWvstZ9vXhhmFLe/UbVTPDhFiRx8fZ/mprCynL2Ts+kc47ay71Xg==|920
