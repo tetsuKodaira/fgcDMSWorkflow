@@ -274,7 +274,17 @@
   },
   {
     "ModuleName": "PCPage/approvalWf",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T19:12:20.579335+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\approvalWf.json",
+      "Pages\\83a5bbceb91e465a96bdf57c801b363.json"
+    ]
   },
   {
     "ModuleName": "PCPage/承認者の追加",
