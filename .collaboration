@@ -260,7 +260,17 @@
   },
   {
     "ModuleName": "PCPage/applywf",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZEON_H01\\Z037674",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-06-05T19:06:05.8241115+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\applywf.json",
+      "Pages\\2e0df04763204255aff80f645d9897d.json"
+    ]
   },
   {
     "ModuleName": "PCPage/approvalWf",
